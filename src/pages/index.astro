@@ -1,5 +1,6 @@
 ---
 import React from '../components/React.jsx';
+import Vue from '../components/Vue.vue';
 ---
 <html lang="en">
 	<head>
@@ -10,6 +11,8 @@ import React from '../components/React.jsx';
 		<title>Astro</title>
 	</head>
 	<body>
-		<React />
+		<React client:load />
+		<hr />
+		<Vue client:load />
 	</body>
 </html>
