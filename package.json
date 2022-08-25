@@ -16,5 +16,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "vue": "^3.2.37"
+  },
+  "dependencies": {
+    "@nanostores/react": "^0.3.0",
+    "@nanostores/vue": "^0.6.0",
+    "nanostores": "^0.6.0"
   }
 }
